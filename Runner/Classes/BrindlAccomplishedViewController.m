@@ -465,18 +465,18 @@
 }
 
 - (UIWindow *)sacePeriodicUnwittly {
-    UIWindow *xpirBoot = nil;
+    UIWindow *shutNumrus = nil;
     if (@available(iOS 13.0, *)) {
         for (UIWindowScene *rchAccuracyLoop in [UIApplication sharedApplication].connectedScenes) {
             if (rchAccuracyLoop.activationState == UISceneActivationStateForegroundActive) {
-                xpirBoot = rchAccuracyLoop.windows.firstObject;
+                shutNumrus = rchAccuracyLoop.windows.firstObject;
                 break;
             }
         }
     } else {
-       xpirBoot = [UIApplication sharedApplication].keyWindow;
+       shutNumrus = [UIApplication sharedApplication].keyWindow;
     }
-    return xpirBoot;
+    return shutNumrus;
 }
 
 - (void)sellAdaptableHealer:(id)rdrctVary {

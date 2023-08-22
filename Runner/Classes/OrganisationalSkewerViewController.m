@@ -36,7 +36,7 @@
 
 - (UIImageView *)nlikFaceView {
     if (!_nlikFaceView) {
-        _nlikFaceView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"sckticon"]];
+        _nlikFaceView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"scktAlthoughFind"]];
         _nlikFaceView.contentMode = UIViewContentModeScaleAspectFill;
         _nlikFaceView.clipsToBounds = YES;
         _nlikFaceView.layer.masksToBounds = YES;

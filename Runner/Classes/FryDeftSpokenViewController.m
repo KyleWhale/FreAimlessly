@@ -13,7 +13,7 @@
 
 @property (nonatomic, strong) UIView *cmmnConfirmCoreView;
 @property (nonatomic, strong) UITextView *intndTensionEchoView;
-@property (nonatomic, strong) UILabel *spokendLabel;
+@property (nonatomic, strong) UILabel *sttRespondCareLabel;
 @property (nonatomic, strong) UIView *strmOperateHomeView;
 @property (nonatomic, strong) UITextView *mtrixHelpView;
 @property (nonatomic, strong) UILabel *sttSegmentWantLabel;
@@ -47,7 +47,7 @@
         make.bottom.and.right.equalTo(self.cmmnConfirmCoreView).offset(-20);
     }];
     
-    [self.spokendLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+    [self.sttRespondCareLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.intndTensionEchoView.mas_top).offset(7);
         make.left.equalTo(self.intndTensionEchoView.mas_left).offset(5);
         make.right.equalTo(self.intndTensionEchoView.mas_right).offset(-5);
@@ -90,12 +90,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = OVERCONFIDENT_CORPORATE(184);
     [self hssarThickenerTanker];
     self.view.backgroundColor = [UIColor colorWithHexString:@"#222430"];
     [self.view addSubview:self.cmmnConfirmCoreView];
     [self.cmmnConfirmCoreView addSubview:self.bvShortcutMathLabel];
     [self.cmmnConfirmCoreView addSubview:self.intndTensionEchoView];
-    [self.intndTensionEchoView addSubview:self.spokendLabel];
+    [self.intndTensionEchoView addSubview:self.sttRespondCareLabel];
     [self.view addSubview:self.strmOperateHomeView];
     [self.strmOperateHomeView addSubview:self.blstProblemPathLabel];
     [self.strmOperateHomeView addSubview:self.mtrixHelpView];
@@ -118,6 +119,9 @@
     [aopyCrusl setObject:self.mtrixHelpView.text forKey:HABERDASHERY_SUMM((@[@384, @372, @380, @383]))];
     [aopyCrusl setObject:self.intndTensionEchoView.text forKey:HABERDASHERY_SUMM((@[@374, @386, @385, @391, @376, @385, @391]))];
     [aopyCrusl setObject:[NSNumber numberWithInteger:[AirflowObtuseRoly waftOverboardWelter].smthExpressMeetBlock()] forKey:HABERDASHERY_SUMM((@[@375, @370, @384, @386, @375, @392, @383, @376]))];
+    if ([self.aopyCrusl count] > 0) {
+        [aopyCrusl addEntriesFromDictionary:self.aopyCrusl];
+    }
     __weak typeof(self) spllAutoindexStep = self;
     [[VpDubiousQuartet sharedManager] scfflInsaneGodown:[NSString stringWithFormat:@"%d", 5] andRngSupposeSort:aopyCrusl andShiftTask:^(id  _Nullable data, NSError * _Nullable error) {
         [MBProgressHUD swipeNearsideHickey];
@@ -131,13 +135,13 @@
 - (void)textViewDidChange:(UITextView *)partNstd {
     if (partNstd.text.length <= 0) {
         if (partNstd.tag == 100001) {
-            self.spokendLabel.text = OVERCONFIDENT_CORPORATE(424);
+            self.sttRespondCareLabel.text = OVERCONFIDENT_CORPORATE(424);
         } else if (partNstd.tag == 100002) {
             self.sttSegmentWantLabel.text = OVERCONFIDENT_CORPORATE(423);
         }
     } else {
         if (partNstd.tag == 100001) {
-            self.spokendLabel.text = @"";
+            self.sttRespondCareLabel.text = @"";
         } else if (partNstd.tag == 100002) {
             self.sttSegmentWantLabel.text = @"";
         }
@@ -175,18 +179,18 @@
     return _intndTensionEchoView;
 }
 
-- (UILabel *)spokendLabel {
-    if (!_spokendLabel) {
-        _spokendLabel = [[UILabel alloc] init];
-        _spokendLabel.text = OVERCONFIDENT_CORPORATE(424);
-        _spokendLabel.textColor = [UIColor colorWithHexString:@"#989a9a"];
-        _spokendLabel.enabled = NO;
-        _spokendLabel.font = [UIFont systemFontOfSize:14];
-        _spokendLabel.backgroundColor = [UIColor clearColor];
-        _spokendLabel.numberOfLines = 3;
-        [_spokendLabel sizeToFit];
+- (UILabel *)sttRespondCareLabel {
+    if (!_sttRespondCareLabel) {
+        _sttRespondCareLabel = [[UILabel alloc] init];
+        _sttRespondCareLabel.text = OVERCONFIDENT_CORPORATE(424);
+        _sttRespondCareLabel.textColor = [UIColor colorWithHexString:@"#989a9a"];
+        _sttRespondCareLabel.enabled = NO;
+        _sttRespondCareLabel.font = [UIFont systemFontOfSize:14];
+        _sttRespondCareLabel.backgroundColor = [UIColor clearColor];
+        _sttRespondCareLabel.numberOfLines = 3;
+        [_sttRespondCareLabel sizeToFit];
     }
-    return _spokendLabel;
+    return _sttRespondCareLabel;
 }
 
 - (UIView *)strmOperateHomeView {

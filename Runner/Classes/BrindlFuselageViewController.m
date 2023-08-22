@@ -223,7 +223,7 @@
     [pnnTape setObject:comeXhust.inptAdvanceBell forKey:HABERDASHERY_SUMM((@[@377, @380, @375]))];
     __weak __typeof(self)spllAutoindexStep = self;
     [MBProgressHUD airwayPriorPictogram];
-    [[VpDubiousQuartet sharedManager] scfflInsaneGodown:[NSString stringWithFormat:@"%d", 283] andRngSupposeSort:pnnTape andEachSupprt:NO  andShiftTask:^(id model, NSError * _Nonnull error) {
+    [[VpDubiousQuartet sharedManager] scfflInsaneGodown:[NSString stringWithFormat:@"%d", 283] andRngSupposeSort:pnnTape andCmmEliminateSend:NO  andShiftTask:^(id model, NSError * _Nonnull error) {
         [MBProgressHUD swipeNearsideHickey];
         if (error == nil) {
             if ( [[model objectForKey:@"243"] integerValue] == 200 ) {
@@ -273,7 +273,7 @@
     [pnnTape setObject:comeXhust.inptAdvanceBell forKey:HABERDASHERY_SUMM((@[@377, @380, @375]))];
 
     [MBProgressHUD airwayPriorPictogram];
-    [[VpDubiousQuartet sharedManager] scfflInsaneGodown:[NSString stringWithFormat:@"%d", 327] andRngSupposeSort:pnnTape andEachSupprt:NO andShiftTask:^(id model, NSError * _Nonnull error) {
+    [[VpDubiousQuartet sharedManager] scfflInsaneGodown:[NSString stringWithFormat:@"%d", 327] andRngSupposeSort:pnnTape andCmmEliminateSend:NO andShiftTask:^(id model, NSError * _Nonnull error) {
         [MBProgressHUD swipeNearsideHickey];
         if (error == nil) {
             if ([[model objectForKey:@"243"] integerValue] == 200 ) {
@@ -312,7 +312,7 @@
     [pnnTape setObject:comeXhust.byndRewriteMath forKey:HABERDASHERY_SUMM((@[@392, @380, @375]))];
     [pnnTape setObject:comeXhust.inptAdvanceBell forKey:HABERDASHERY_SUMM((@[@377, @380, @375]))];
     
-    [[VpDubiousQuartet sharedManager] scfflInsaneGodown:[NSString stringWithFormat:@"%d", 284] andRngSupposeSort:pnnTape andEachSupprt:NO andShiftTask:^(id model, NSError * _Nonnull error) {
+    [[VpDubiousQuartet sharedManager] scfflInsaneGodown:[NSString stringWithFormat:@"%d", 284] andRngSupposeSort:pnnTape andCmmEliminateSend:NO andShiftTask:^(id model, NSError * _Nonnull error) {
         
         if (error == nil) {
             if ([[model objectForKey:@"243"] integerValue] == 200 ) {

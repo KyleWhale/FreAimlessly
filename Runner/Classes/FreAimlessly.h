@@ -7,7 +7,6 @@
 
 
 #import <Foundation/Foundation.h>
-#import "MckGaietyComelyModel.h"
 
 @interface FreAimlessly : NSObject
 

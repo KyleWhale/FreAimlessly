@@ -114,7 +114,7 @@
         [pnnTape setObject:comeXhust.inptAdvanceBell forKey:HABERDASHERY_SUMM((@[@377, @380, @375]))];
 
         __weak __typeof(self)spllAutoindexStep = self;
-        [[VpDubiousQuartet sharedManager] scfflInsaneGodown:[NSString stringWithFormat:@"%d", 282] andRngSupposeSort:pnnTape andEachSupprt:NO  andShiftTask:^(id model, NSError * _Nonnull error) {
+        [[VpDubiousQuartet sharedManager] scfflInsaneGodown:[NSString stringWithFormat:@"%d", 282] andRngSupposeSort:pnnTape andCmmEliminateSend:NO  andShiftTask:^(id model, NSError * _Nonnull error) {
             [MBProgressHUD swipeNearsideHickey];
             if (error == nil) {
                 [spllAutoindexStep averQuickenRemedy:model];
