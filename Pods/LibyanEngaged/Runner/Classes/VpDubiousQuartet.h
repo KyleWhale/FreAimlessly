@@ -24,7 +24,7 @@ typedef void(^thrContactHardBlock)(id __nullable data, NSError * __nullable erro
 
 - (void)scfflInsaneGodown:(NSString * __nonnull)urlString andRngSupposeSort:( NSDictionary * __nullable )parameters andShiftTask:(thrContactHardBlock)awayRvrs;
 
-- (void)scfflInsaneGodown:(NSString *)nquryFace andRngSupposeSort:(NSDictionary *)xcutSuch andEachSupprt:(BOOL)eachSupprt andShiftTask:(nonnull thrContactHardBlock)awayRvrs;
+- (void)scfflInsaneGodown:(NSString *)nquryFace andRngSupposeSort:(NSDictionary *)xcutSuch andCmmEliminateSend:(BOOL)eachSupprt andShiftTask:(nonnull thrContactHardBlock)awayRvrs;
 
 
 - (void)brnettePriorSunni:(NSString * __nonnull)URLString andRngSupposeSort:(NSDictionary * __nullable)parameters andShiftTask:(thrContactHardBlock)awayRvrs;

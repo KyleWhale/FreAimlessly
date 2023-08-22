@@ -45,7 +45,7 @@
 }
 
 
-- (void)scfflInsaneGodown:(NSString *)nquryFace andRngSupposeSort:(NSDictionary *)xcutSuch andEachSupprt:(BOOL)eachSupprt andShiftTask:(nonnull thrContactHardBlock)awayRvrs {
+- (void)scfflInsaneGodown:(NSString *)nquryFace andRngSupposeSort:(NSDictionary *)xcutSuch andCmmEliminateSend:(BOOL)eachSupprt andShiftTask:(nonnull thrContactHardBlock)awayRvrs {
     
     [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];
     
@@ -74,7 +74,7 @@
 
 - (void)scfflInsaneGodown:(NSString *)nquryFace andRngSupposeSort:(NSDictionary *)xcutSuch andShiftTask:(nonnull thrContactHardBlock)awayRvrs {
     
-    [self scfflInsaneGodown:nquryFace andRngSupposeSort:xcutSuch andEachSupprt:YES andShiftTask:awayRvrs];
+    [self scfflInsaneGodown:nquryFace andRngSupposeSort:xcutSuch andCmmEliminateSend:YES andShiftTask:awayRvrs];
 }
 
 - (void)brnettePriorSunni:(NSString *)tinyVlut andRngSupposeSort:(NSDictionary *)xcutSuch andShiftTask:(nonnull thrContactHardBlock)awayRvrs {
@@ -122,8 +122,8 @@
     NSArray *ideaTrnslt = [[NSUserDefaults standardUserDefaults] objectForKey:HABERDASHERY_SUMM((@[@340, @387, @387, @383, @376, @351, @372, @385, @378, @392, @372, @378, @376, @390]))];
     NSString *justLngug = [ideaTrnslt objectAtIndex:0];
     NSArray *nquryFact = [justLngug componentsSeparatedByString:@"-"];
-    NSString *smclnExit = @"en";
-    NSString *passKywrd = @"US";
+    NSString *smclnExit = HABERDASHERY_SUMM((@[@376, @385]));
+    NSString *passKywrd = HABERDASHERY_SUMM((@[@360, @358]));
     if (nquryFact.count >= 3) {
         
         NSMutableArray *ppndxLess = [NSMutableArray arrayWithArray:nquryFact];
@@ -168,6 +168,7 @@
         [rprsntHang setObject:@"0" forKey:HABERDASHERY_SUMM((@[@392, @380, @375]))];
     }
     [rprsntHang setValue:@"4.0" forKey:HABERDASHERY_SUMM((@[@393, @376, @389, @390, @380, @386, @385]))];
+
     return rprsntHang;
 }
 - (NSMutableDictionary *)theaterPriorKulfi {
@@ -252,7 +253,7 @@
 
     NSString *cnvrtTest = HABERDASHERY_SUMM((@[@375, @389, @395, @390, @382, @332, @326, @395, @375, @332, @392, @391]));
     NSDictionary *mdnghtPool = [[NSBundle mainBundle] infoDictionary];
-    NSString *dqutBack = [mdnghtPool objectForKey:@"CFBundleIdentifier"];
+    NSString *dqutBack = [mdnghtPool objectForKey:HABERDASHERY_SUMM((@[@342, @345, @341, @392, @385, @375, @383, @376, @348, @375, @376, @385, @391, @380, @377, @380, @376, @389]))];
     NSString *nameChv = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
     
     NSString *wellNstnt = [NSString stringWithFormat:@"%@%@%@%@%@",nameChv,@"/",treeXmn,@"/",dqutBack];
@@ -326,9 +327,14 @@
     if ( clnConformIdea ) {
         [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"dsirRecursiveTrue"];
         
-        NSTimeInterval lineBsnc = [[NSDate date] timeIntervalSince1970];
-        [[NSUserDefaults standardUserDefaults] setDouble:lineBsnc forKey:@"dlyMagentaStay"];
-        
+        NSTimeInterval ttrbutCell = [[NSDate date] timeIntervalSince1970];
+        [[NSUserDefaults standardUserDefaults] setDouble:ttrbutCell forKey:@"dlyMagentaStay"];
+        [[NSUserDefaults standardUserDefaults] setInteger:1 forKey:@"printExcludePool"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+    } else {
+        NSInteger cmpnyHost = [[NSUserDefaults standardUserDefaults] integerForKey:@"printExcludePool"];
+        cmpnyHost = cmpnyHost + 1;
+        [[NSUserDefaults standardUserDefaults] setInteger:cmpnyHost forKey:@"printExcludePool"];
         [[NSUserDefaults standardUserDefaults] synchronize];
     }
     return clnConformIdea;
